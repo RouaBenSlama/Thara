@@ -1,5 +1,6 @@
 import React from 'react';
 import {motion} from "framer-motion";
+import video from './Thara.mp4';
 
 const Video = () => {
     return (
@@ -10,7 +11,10 @@ const Video = () => {
             className="home"
         >
             <h2>Video</h2>
-
+            <video controls width="800">
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
         </motion.div>
     );
 };
