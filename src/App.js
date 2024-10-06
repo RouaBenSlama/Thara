@@ -1,0 +1,45 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import Home from './components/Home';
+import Story from './components/Story';
+import Measurements from './components/Measurements';
+import Why from './components/Why';
+import Impact from './components/Impact';
+import HowScientistsTrack from './components/HowScientistsTrack';
+import Future from './components/Future';
+import Source from './components/Source'
+import './App.css';
+
+function App() {
+  return (
+    <Router>
+      <div className="app">
+        <header>
+          <h1>Solar Storms - May 2024</h1>
+          <nav>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/story">Story</NavLink>
+            <NavLink to="/measurements">Measurements</NavLink>
+            <NavLink to="/why">Why?</NavLink>
+            <NavLink to="/impact">Impact</NavLink>
+            <NavLink to="/how-scientists-track">How Scientists Track</NavLink>
+            <NavLink to="/future">Future</NavLink>
+            <NavLink to="/source">Source</NavLink>
+          </nav>
+        </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/story" element={<Story />} />
+          <Route path="/measurements" element={<Measurements />} />
+          <Route path="/why" element={<Why />} />
+          <Route path="/impact" element={<Impact />} />
+          <Route path="/how-scientists-track" element={<HowScientistsTrack />} />
+          <Route path="/future" element={<Future />} />
+          <Route path="/source" element={<Source />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
