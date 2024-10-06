@@ -51,9 +51,10 @@ const Impact = () => {
               operators
               can allow them to switch radio frequencies and avoid an outage.</p>
           </p>
-        </div><br/><br/><br/><br/>
+        </div>
+        <br/><br/><br/><br/>
 
-        <div className="impactP3" style={{ textAlign: 'right' }}>
+        <div className="impactP3" style={{textAlign: 'right'}}>
           <p>
             <h3>Solar radiation storm:</h3>
             Small and fast-moving charged particles are emitted by a solar storm. Due to their fast speed,
@@ -64,10 +65,11 @@ const Impact = () => {
             their spacecraft.
             Halford makes a comparison between it and hiding in a basement during a tornado.
           </p>
-        </div><br/><br/><br/>
-        <div className="impactP4">
-          <p>
-            <h3>Geomagnetic storm:</h3>
+        </div>
+        <br/><br/><br/>
+        <div className="impactP4" style={{marginLeft: '20px'}}>
+          <h3>Geomagnetic storm:</h3>
+          <p style={{textAlign: 'left'}}>
             Giant clouds of plasma called CMEs can reach Earth's orbit and compress the magnetosphere in one to
             three days after a solar eruption. Several significant electrical systems on Earth's surface, including
             power grids, can be influenced by the influx of charged particles and electromagnetic fields rippling
@@ -78,6 +80,10 @@ const Impact = () => {
             Halford and Pulkkinen stated that there are measures in place to reduce the chances of this happening again.
           </p>
         </div>
+        <img
+            src="https://windy.app//storage/posts/June2022/geomagnetic-storm-windyapp.jpg" alt="Capture"
+            className="impactImage3"
+        />
       </motion.div>
   );
 };
