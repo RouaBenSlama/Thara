@@ -1,19 +1,19 @@
 {
   "short_name": "Thara",
-  "name": "Create React App Sample",
+  "name": "NASA Space Apps Challenge",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "1455554774_line-86_icon-icons.com_53363.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "1455554774_line-86_icon-icons.com_53363.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "1455554774_line-86_icon-icons.com_53363.png",
       "type": "image/png",
       "sizes": "512x512"
     }
