@@ -9,10 +9,9 @@ const Why = () => {
       transition={{ duration: 0.5 }}
       className="why"
     >
-      <h2>Why did it happen?</h2>
-      <p>
-        Solar storms occur due to the Sun's magnetic activity, where magnetic fields release energy in the form of solar flares and coronal mass ejections (CMEs). These events are particularly intense during periods of high solar activity.
-      </p>
+      <h2>What cause a soloar storm ?</h2>
+      <p>The Sun creates a tangled mess of magnetic fields — kind of like a disheveled head of hair after a fitful night of sleep. These magnetic fields get twisted up as the Sun rotates — with its equator rotating faster than its poles.
+        <strong>Solar storms typically begin when these twisted magnetic fields on the Sun get contorted and stretched so much that they snap and reconnect (in a process called magnetic reconnection), releasing large amounts of energy.</strong> </p>
     </motion.div>
   );
 };
