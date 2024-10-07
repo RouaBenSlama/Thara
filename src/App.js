@@ -23,7 +23,7 @@ function App() {
             <NavLink to="/impact">Impact</NavLink>
             <NavLink to="/how-scientists-track">How Scientists Track</NavLink>
             <NavLink to="/future">Future</NavLink>
-            <NavLink to="/video">Vidéo</NavLink>
+            <NavLink to="/video">Video</NavLink>
             <NavLink to="/source">Source</NavLink>
           </nav>
         </header>
@@ -34,7 +34,7 @@ function App() {
           <Route path="/impact" element={<Impact />} />
           <Route path="/how-scientists-track" element={<HowScientistsTrack />} />
           <Route path="/future" element={<Future />} />
-          <Route path="/video" element={<Video />} />
+          <Route path="/video" element={<Video youtubeUrl={"https://youtu.be/BIp_O9s3uxU"} />} />
           <Route path="/source" element={<Source />} />
         </Routes>
       </div>
