@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Thara/static/css/main.31df6d5f.css",
+    "main.js": "/Thara/static/js/main.de1940c4.js",
+    "static/media/04_drawings.webp": "/Thara/static/media/04_drawings.a552ab22e19839b86858.webp",
+    "static/media/Capture.PNG": "/Thara/static/media/Capture.6cbf838096907707f96d.PNG",
+    "static/media/resize.webp": "/Thara/static/media/resize.ac99517ced236e6cd719.webp",
+    "static/media/80331043-0-image-a-56_1705963981914.avif": "/Thara/static/media/80331043-0-image-a-56_1705963981914.574a3d8a437440f453d6.avif",
+    "index.html": "/Thara/index.html",
+    "main.31df6d5f.css.map": "/Thara/static/css/main.31df6d5f.css.map",
+    "main.de1940c4.js.map": "/Thara/static/js/main.de1940c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31df6d5f.css",
+    "static/js/main.de1940c4.js"
+  ]
+}
