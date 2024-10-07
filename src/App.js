@@ -19,7 +19,7 @@ function App() {
           <nav>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/story">Story</NavLink>
-            <NavLink to="/interactive-solar-storm">Interaction</NavLink>
+            <NavLink to="/interactive-solar-storm">Explore</NavLink>
             <NavLink to="/impact">Impact</NavLink>
             <NavLink to="/how-scientists-track">How Scientists Track</NavLink>
             <NavLink to="/future">Future</NavLink>
